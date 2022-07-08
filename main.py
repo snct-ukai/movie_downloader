@@ -42,5 +42,7 @@ def main():
       b = download(f, url)
       if not b:
         sg.popup("ダウンロードに失敗しました")
+      else:
+        sg.popup("ダウンロード完了")
 
 main()
